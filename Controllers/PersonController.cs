@@ -34,5 +34,18 @@ namespace kinderkultur.Controllers
             }
             return new ObjectResult(item);
         }
+
+        [HttpPost]
+        public IActionResult Create([FromBody] Person person)
+        {
+            if (person == null)
+            {
+                return BadRequest();
+            }
+
+            _personRepository.Add(person);
+
+            return CreatedAtRoute("GetPerson", new { id = person.Key }, person);
+        }
     }
 }

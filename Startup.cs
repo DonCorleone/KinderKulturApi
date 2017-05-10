@@ -28,7 +28,7 @@ namespace kinderkultur
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<PersonContext>(opt => opt.UseInMemoryDatabase());
+            services.AddDbContext<PersonContext>(opt => opt.UseMySql(@"Server=localhost;database=kinderkultur;uid=root;pwd=;"));
 
             services.AddMvc();
             

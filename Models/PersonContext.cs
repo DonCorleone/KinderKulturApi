@@ -13,6 +13,9 @@ namespace kinderkultur.Models
         {
         }
 
+        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //     => optionsBuilder
+        //         .UseMySql(@"Server=localhost;database=kinderkultur;uid=root;pwd=;");
         public DbSet<Person> Personen { get; set; }
 
     }
