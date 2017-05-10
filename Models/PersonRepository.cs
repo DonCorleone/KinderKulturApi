@@ -13,7 +13,7 @@ namespace kinderkultur.Models
             _context = context;
 
             if( _context.Personen.Count() == 0)
-                Add(new Person { Name = "Hugentobler", Vorname = "Fritz" });
+                Add(new Person { Name = "Hugentobler", Vorname = "Fritz", eMail = "fritz@hugentobler.com" });
         }
 
         public IEnumerable<Person> GetAll()
