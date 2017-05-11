@@ -10,9 +10,9 @@ __POST methods:__
 _POST /api/Person_
 
     {  
-        "name"			: "aName",  
-        "vorname"		: "aPrename",  
-        "eMail"			: "aMail@adress.com"  
+        "name" : "aName",  
+        "vorname" : "aPrename",  
+        "eMail" : "aMail@adress.com"  
     }  
 
 
