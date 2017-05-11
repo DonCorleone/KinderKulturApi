@@ -8,16 +8,14 @@ http://localhost:5000/api/Person/
 
 inspired by:
 
-https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc
-
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc  
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet  
 https://docs.microsoft.com/en-us/ef/core/get-started/netcore/new-db-sqlite
 
     dotnet ef migrations add InitialCreate  
     dotnet ef database update  
 
 
-
-https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet  
 https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/blob/master/README.md#getting-started  
 https://mariadb.com/kb/en/mariadb/starting-and-stopping-mariadb-automatically/  
 
