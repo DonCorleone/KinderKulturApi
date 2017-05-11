@@ -2,11 +2,11 @@
 
 This API implements 
 
-1. GET methods:  
+__GET methods:__  
 _GET /api/Person_  
 _GET /api/Person/{id}_  
 
-2. POST methods:  
+__POST methods:__   
 _POST /api/Person_
 
     {  
@@ -16,9 +16,7 @@ _POST /api/Person_
     }  
 
 
-http://localhost:5000/api/Person/
-
-inspired by:
+__inspired by:__
 
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc  
 https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet  
