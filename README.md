@@ -30,7 +30,7 @@ https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/blob/master
 https://mariadb.com/kb/en/mariadb/starting-and-stopping-mariadb-automatically/  
 
 local development:  
-    _cd /Users/dev/Documents/kinderkultur//_webApi/kinderkultur_
+    _cd /Users/dev/Documents/kinderkultur/\_webApi/kinderkultur_
 
     dotnet restore  
     dotnet build  
