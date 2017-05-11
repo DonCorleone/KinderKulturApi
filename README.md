@@ -9,11 +9,11 @@ _GET /api/Person/{id}_
 2. POST methods:  
 _POST /api/Person_
 
-    {
-        "name"			: "aName",
-        "vorname"		: "aPrename",
-        "eMail"			: "aMail@adress.com"
-    }
+    {  
+        "name"			: "aName",  
+        "vorname"		: "aPrename",  
+        "eMail"			: "aMail@adress.com"  
+    }  
 
 
 http://localhost:5000/api/Person/
