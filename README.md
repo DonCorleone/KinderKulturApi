@@ -3,11 +3,11 @@
 This API implements 
 
 1. GET methods:  
-__GET /api/Person__  
-__GET /api/Person/{id}__  
+_GET /api/Person_  
+_GET /api/Person/{id}_  
 
-2. POST methods:
-__POST /api/Person__
+2. POST methods:  
+_POST /api/Person_  
     {
         "name"			: "aName",
         "vorname"		: "aPrename",
