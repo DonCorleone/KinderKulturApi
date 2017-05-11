@@ -10,7 +10,8 @@ inspired by:
 
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc
 
-https://docs.microsoft.com/en-us/ef/core/get-started/netcore/new-db-sqlite  
+https://docs.microsoft.com/en-us/ef/core/get-started/netcore/new-db-sqlite
+
     dotnet ef migrations add InitialCreate  
     dotnet ef database update  
 
