@@ -17,3 +17,5 @@ https://docs.microsoft.com/en-us/ef/core/get-started/netcore/new-db-sqlite
 https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet
 
 https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/blob/master/README.md#getting-started
+
+https://mariadb.com/kb/en/mariadb/starting-and-stopping-mariadb-automatically/
