@@ -1,8 +1,19 @@
 # Welcome to Kinderkultur Web API
 
-These methods implement the two GET methods:  
-GET /api/Person  
-GET /api/Person/{id}  
+This API implements 
+
+1. GET methods:  
+__GET /api/Person__  
+__GET /api/Person/{id}__  
+
+2. POST methods:
+__POST /api/Person__
+    {
+        "name"			: "aName",
+        "vorname"		: "aPrename",
+        "eMail"			: "aMail@adress.com"
+    }
+
 
 http://localhost:5000/api/Person/
 
