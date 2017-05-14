@@ -39,3 +39,6 @@ local development:
 http://localhost:5000/api/Person/  
 
 https://de.wikipedia.org/wiki/Markdown  
+
+Client generation:
+https://github.com/aspnet/JavaScriptServices
